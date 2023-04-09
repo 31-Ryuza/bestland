@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "2100845948",
+    "project_id": "bestland-e3095",
+    "storage_bucket": "bestland-e3095.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2100845948:android:01a0102f3c967d662118f9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2100845948-6pg7orup5em1jle1nub48p8hmmer6d2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqWLFlFneZrrJjK7Dyb2l9m8jt36WU8Ro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2100845948-6pg7orup5em1jle1nub48p8hmmer6d2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
