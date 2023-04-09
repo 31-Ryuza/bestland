@@ -119,6 +119,7 @@ class _OnSaleScreenState extends State<OnSaleScreen> {
               width: double.infinity,
               child: FirebaseAnimatedList(
               defaultChild: Center(child: CircularProgressIndicator()),
+              physics: const NeverScrollableScrollPhysics(),
               query: FirebaseDatabase.instance.ref().child('tanah'), 
               itemBuilder: ((context, snapshot, animation, index) {
                 Map tanah = snapshot.value as Map;

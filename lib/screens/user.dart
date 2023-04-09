@@ -96,7 +96,7 @@ class _UserScreenState extends State<UserScreen> {
                   style: const TextStyle(color: Colors.cyan, fontSize: 27, fontWeight: FontWeight.bold),
                   children: <TextSpan>[
                     TextSpan(
-                      text: username ?? 'Human',
+                      text: username == 'null' ? 'Human' : username,
                       style: TextStyle(
                         color: color,
                         fontSize: 25,
@@ -124,7 +124,7 @@ class _UserScreenState extends State<UserScreen> {
                 ),
                   _listTiles(
                   title: 'Profile',
-                  subtitle: username ?? 'Human',
+                  subtitle: username == 'null' ? 'Human' : username,
                   icon: IconlyBold.profile, 
                   onPressed: () async{
                     await showProfileDialog();
@@ -133,7 +133,7 @@ class _UserScreenState extends State<UserScreen> {
                   ),
                   _listTiles(
                   title: 'Address',
-                  subtitle: address ?? '',
+                  subtitle: address == 'null' ? '' : address,
                   icon: IconlyBold.home, 
                   onPressed: () async{
                     await showAddressDialog();
